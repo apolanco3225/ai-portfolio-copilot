@@ -1,0 +1,15 @@
+# AI Portfolio Advisory Copilot
+# (also needs: uv -> `uvx alpaca-mcp-server`, and Ollama with the two models in the README)
+pandas>=2.0
+numpy>=1.24
+pypdf>=4.0
+ollama>=0.4
+jupyter
+
+# Pydantic AI notebook
+pydantic-ai-slim[openai,mcp]>=1.0
+
+# LangChain notebook
+langchain>=1.0
+langchain-ollama>=1.0
+langchain-mcp-adapters>=0.1
